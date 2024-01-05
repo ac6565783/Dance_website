@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Castoro+Titling&family=Ephesis&family=Montserrat:wght@300&family=Poppins:wght@300&family=Quicksand:wght@300&family=Roboto:ital,wght@0,300;1,300&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* filter: drop-shadow(2px 4px 6px black); */
+}
+
+#logo img {
+    height: 30px;
+    border-radius: 100%;
+    filter: invert(1) drop-shadow(2px 4px 6px rgb(214, 205, 205));
+}
+
+nav {
+    background-color: #533131;
+
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Ephesis', cursive;
+    color: white;
+}
+
+#picturesection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center/ cover no-repeat url("./static/bg.jpg");
+    color: white;
+    height: 350px;
+    opacity: .8;
+}
+
+#picturesection div.content {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+#missionsection {
+    background-color: rgb(182, 175, 166);
+    height: 200px;
+}
+
+#missionsection h2 {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.card {
+    border: 2px solid #b99a9a;
+    filter: drop-shadow(2px 4px 6px rgb(138, 124, 124));
+    height: 141px;
+    width: 222px;
+    margin: 3px 95px;
+    border-radius: 23px;
+    padding: 13px 16px;
+    display: inline-block;
+}
+
+.card h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 11px;
+    color: white;
+    margin-top: -6px;
+}
+
+.card-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .card-img {
+    height: 40px;
+} */
+
+.card-img img {
+    filter: drop-shadow(2px 4px 6px black);
+    height: 27px;
+    margin: 17px;
+    border-radius: 31px;
+}
+
+#sponsorsection {
+    background-color: #d9cbb9;
+    height: 200px;
+}
+
+#sponsorsection h2 {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.sponsor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-1 {
+    margin: 0px 55px;
+}
+
+.sponsor-1 img {
+    height: 120px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+#footer {
+    bottom: 0;
+    background-color: #5e8181;
+    bottom: 0;
+    width: 100%;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #efd4d4;
+}
+
+#footer p {
+    filter: drop-shadow(2px 4px solid black)
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    padding: 2pxpx;
+    /* height: 100vh; */
+}
+
+.c {
+    min-height: 80vh;
+    margin: 12px;
+}
+
+.c h1 {
+    text-align: center;
+    padding: 7px;
+    /* margin-bottom: -159px; */
+    margin-top: 10px;
+
+}
+
+.i {
+    margin: 14px;
+    padding: 10px;
+    width: 450px;
+    border: 1px solid grey;
+    border-radius: 18px;
+    outline: none;
+}
+
+.s {
+    border-radius: 9px;
+    outline: none;
+    width: 58px;
+    margin: 14px;
+    padding: 6px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1235px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        height: max-content;
+        width: min-content;
+        bottom: 0;
+    }
+
+    .top ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top ul li {
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .top ul li:hover {
+        font-size: 1.2rem;
+        color: rgb(232, 217, 52);
+    }
+
+    .middle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer {
+        position: relative;
+        bottom: 0;
+    }
+}

@@ -1,0 +1,61 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top
+        ul 
+           #logo 
+             img(src="./static/logo.jpg", alt="", srcset="")
+           li #[a(href="/") HOME]
+           li #[a(href="/") ABOUT ]
+           li #[a(href="/") SERVICES ]
+           li #[a(href="/") CONTACT US]
+
+    section#picturesection.middle 
+       div.content Welcome to Ajay's Dance Academy
+
+    section#missionsection.middle 
+        h2 our mission
+        div.card 
+         h3 this is a card
+         div.card-box 
+            div.card-img
+              img(src="./static/logo.jpg", alt="", srcset="")
+
+            div.card-content 
+              p this is the best dance academy
+        div.card 
+         h3 this is a card
+         div.card-box 
+            div.card-img
+              img(src="./static/logo.jpg", alt="", srcset="")
+
+            div.card-content 
+              p this is the best dance academy
+        div.card 
+         h3 this is a card
+         div.card-box 
+            div.card-img
+              img(src="./static/logo.jpg", alt="", srcset="")
+
+            div.card-content 
+              p this is the best dance academy
+    section#sponsorsection.middle 
+        h2 section for sponser
+        div.sponsor
+         div.sponsor-1 
+          img(src="./static/apple.png", alt="", srcset="")
+         div.sponsor-1 
+          img(src="./static/facebook.png", alt="", srcset="")
+         div.sponsor-1 
+          img(src="./static/microsoft.png", alt="", srcset="")
+         div.sponsor-1 
+          img(src="./static/skypee.png", alt="", srcset="") 
+    footer#footer.bottom 
+       p Copyright @ 2023 AjayDanceAcademy.com | All right reserved
+
+    script
+      include ../static/index.js

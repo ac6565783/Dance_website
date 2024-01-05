@@ -1,0 +1,21 @@
+doctype Html
+
+html
+  head
+    title Ajay's Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar.top
+        ul 
+           #logo 
+             img(src="./static/logo.jpg", alt="", srcset="")
+           li #[a(href="/") HOME]
+           li #[a(href="/about") ABOUT ]
+           li #[a(href="/services") SERVICES ]
+           li #[a(href="/contact") CONTACT US]
+
+    block content
+    block footer 
+     footer#footer.bottom 
+       p Copyright @ 2023 AjayDanceAcademy.com | All right reserved
